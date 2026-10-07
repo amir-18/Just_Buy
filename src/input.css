@@ -1,1 +1,11 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", sans-serif;
+  --container-site: 1200px;
+  --container-site-xl: 1400px;
+
+  --color-ink: #111111;
+  --color-muted: #6b6b6b;
+  --color-line: #e5e5e5;
+}
